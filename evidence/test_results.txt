@@ -1,0 +1,38 @@
+LD_LIBRARY_PATH=/mnt/data/KT3_OOP_Libraries/build
+ldd:
+	linux-vdso.so.1 (0x00007fb8e1fea000)
+	libchessmath.so => /mnt/data/KT3_OOP_Libraries/build/libchessmath.so (0x00007fb8e1fd7000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb8e1d60000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb8e1d33000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb8e1b3f000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fb8e1a4d000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fb8e1fec000)
+static:
+ChessMath: version 1
+Rook attacks: 1
+Bishop attacks: 1
+King is under attack: 1
+dynamic v1:
+ChessMath: version 1
+Rook attacks: 1
+Bishop attacks: 1
+King is under attack: 1
+bishop only:
+ChessMath: version 1
+Rook attacks: 0
+Bishop attacks: 1
+King is under attack: 1
+blocked rook:
+ChessMath: version 1
+Rook attacks: 0
+Bishop attacks: 0
+King is under attack: 0
+hash before:
+37e650c5b7bc2c38a459d610478660668e8579f114b42d03104b321f1fec3114  build/a.out
+hash after:
+37e650c5b7bc2c38a459d610478660668e8579f114b42d03104b321f1fec3114  build/a.out
+dynamic v2:
+ChessMath: version 2 (library rebuilt)
+Rook attacks: 1
+Bishop attacks: 1
+King is under attack: 1
